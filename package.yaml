@@ -1,0 +1,17 @@
+name: minimal-dh
+
+dependencies:
+  - base
+  - distributed-process-client-server
+  - distributed-process-extras
+  - distributed-process
+  - network-transport
+  - network-transport-tcp
+  - binary
+
+executables:
+  server:
+    main: Server.hs
+
+  client:
+    main: Client.hs
