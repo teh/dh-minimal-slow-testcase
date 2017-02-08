@@ -2,16 +2,21 @@ name: minimal-dh
 
 dependencies:
   - base
+  - protolude
   - distributed-process-client-server
   - distributed-process-extras
   - distributed-process
   - network-transport
   - network-transport-tcp
   - binary
+  - wai
+  - warp
+  - http-types
+  - stm
+  - binary
+  - binary-orphans
+  - bytestring
 
 executables:
   server:
     main: Server.hs
-
-  client:
-    main: Client.hs
